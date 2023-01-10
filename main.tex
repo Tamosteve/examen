@@ -92,19 +92,20 @@ A polarimetric camera registers intensity behind four linear polarisers with ang
 
 \cref{eq:SLAMequa} can be re-written as:
 \begin{equation}
-    \textit{I}_{\rho pol} = \underbrace{\left(\begin{array}{c c c} 
+    \textit{I}_{ \varphi pol} = \underbrace{\left(\begin{array}{c c c} 
                                                 1\\
-                                                \cos(2\rho_{pol})\\ 
-                                                \sin(2\rho_{pol}) 
+                                                \cos(2 \varphi_{pol})\\ 
+                                                \sin(2 \varphi_{pol}) 
                                                 \end{array}
                                                 \right)^T}_{\beta^{T}}\underbrace{\left(\begin{array}{c c c} 
                                                 \textit{I}_{un}\\
-                                                \cos(2\rho_{pol})\\ 
-                                                \sin(2\rho_{pol}) 
+                                                \rho\cos(2\phi_{pol})\\ 
+                                                \rho\sin(2\phi_{pol}) 
                                                 \end{array}
                                                 \right)}_{x}
     \label{eq:SLAMequa}
 \end{equation}
+
 
 {\small
 \bibliographystyle{IEEEtran}
